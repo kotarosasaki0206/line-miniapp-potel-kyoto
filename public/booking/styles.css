@@ -3,3 +3,30 @@
 /* Potel proposal palette */
 :root{--navy:#2c4934;--blue:#426b4e;--sky:#eff4e8;--line:#3f7552;--ink:#27372e;--muted:#68776b;--border:#e0e8dc;--bg:#f5f6ef;--chat:#c4d0bc;--shadow:0 18px 50px rgba(43,65,48,.14)}
 html,body{background:linear-gradient(180deg,#eceee5,#dfe8d9)}.chat-avatar{background:linear-gradient(135deg,#2b4e38,#658d63)}.mini-avatar{color:#37664a}.user .bubble{background:#d7eebd}.room-art{background:linear-gradient(145deg,#779171,#365d4a)}.room-card:nth-child(2) .room-art{background:linear-gradient(145deg,#b69670,#775f44)}.room-card:nth-child(3) .room-art{background:linear-gradient(145deg,#99a288,#5e7159)}.plan-card:nth-child(2) .plan-art{background:linear-gradient(145deg,#9daa90,#60785d)}
+
+/* Match the guest guide's 460px canvas and readable text scale. */
+.phone-shell{width:min(100%,460px)}
+.chat{padding-left:16px;padding-right:16px}
+.chat-brand strong{font-size:14px}
+.chat-brand span{font-size:11px}
+.demo-pill{font-size:10px}
+.progress span{font-size:10px}
+.progress span b{font-size:11px}
+.bubble{font-size:15px;line-height:1.65}
+.time{font-size:10px}
+.system-note,.composer-note{font-size:11px}
+.quick{font-size:13px}
+.date-card label,.field label{font-size:12px}
+.date-card input,.field input,.composer textarea{font-size:16px;min-width:0}
+.room-tag,.plan-tag{font-size:10px}
+.room-hotel{font-size:11px}
+.room-body strong,.plan-body strong{font-size:15px}
+.room-meta,.room-desc,.plan-desc{font-size:13px}
+.room-price,.plan-price{font-size:16px}
+.plan-body{min-width:0}
+.guest-card h3,.summary h3,.completion h3{font-size:16px}
+.summary dl,.completion p{font-size:13px}
+.summary .total strong{font-size:20px}
+.booking-id{font-size:14px}
+@media(min-width:501px){body{padding:0}.phone-shell{margin:32px auto;min-height:calc(100dvh - 64px);border-radius:22px}.booking-view{height:calc(100dvh - 64px)}}
+@media(max-width:500px){.phone-shell{margin:0;box-shadow:none;border-radius:0}}
